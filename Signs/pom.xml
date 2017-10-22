@@ -1,0 +1,307 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Signs</groupId>
+  <artifactId>Signs</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>Signs</name>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.0.0</version>
+        <configuration>
+          <warSourceDirectory>WebContent</warSourceDirectory>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  	<dependencies>
+	
+		<!-- https://mvnrepository.com/artifact/io.netty/netty-transport-native-epoll -->
+		<dependency>
+		    <groupId>io.netty</groupId>
+		    <artifactId>netty-transport-native-epoll</artifactId>
+		    <version>4.1.5.Final</version>
+		    <classifier>linux-x86_64</classifier>
+		</dependency>
+    
+		<!-- https://mvnrepository.com/artifact/com.datastax.cassandra/cassandra-driver-core -->
+		<dependency>
+		    <groupId>com.datastax.cassandra</groupId>
+		    <artifactId>cassandra-driver-core</artifactId>
+		    <version>3.1.3</version>
+		</dependency>
+
+	   	<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-webapp -->
+		<dependency>
+		    <groupId>org.eclipse.jetty</groupId>
+		    <artifactId>jetty-webapp</artifactId>
+		    <version>9.4.0.v20161208</version>
+		</dependency>
+		
+	   	<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-xml -->
+		<dependency>
+		    <groupId>org.eclipse.jetty</groupId>
+		    <artifactId>jetty-xml</artifactId>
+		    <version>9.4.0.v20161208</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-security -->
+		<dependency>
+		    <groupId>org.eclipse.jetty</groupId>
+		    <artifactId>jetty-security</artifactId>
+		    <version>9.4.0.v20161208</version>
+		</dependency>
+		
+	    <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-server -->
+	    <dependency>
+	        <groupId>org.eclipse.jetty</groupId>
+	        <artifactId>jetty-server</artifactId>
+	        <version>9.4.0.v20161208</version>
+	    </dependency>
+	    
+	   
+	   	    <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-annotations -->
+	    <dependency>
+	        <groupId>org.eclipse.jetty</groupId>
+	        <artifactId>jetty-annotations</artifactId>
+	        <version>9.4.0.v20161208</version>
+	    </dependency>
+	       
+	    <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-continuation -->
+	    <dependency>
+	        <groupId>org.eclipse.jetty</groupId>
+	        <artifactId>jetty-continuation</artifactId>
+	        <version>9.4.0.v20161208</version>
+	    </dependency>
+	    
+	    <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-client -->
+	    <dependency>
+	        <groupId>org.eclipse.jetty</groupId>
+	        <artifactId>jetty-client</artifactId>
+	        <version>9.4.0.v20161208</version>
+	    </dependency>
+	   	
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-http -->
+		<dependency>
+		    <groupId>org.eclipse.jetty</groupId>
+		    <artifactId>jetty-http</artifactId>
+		    <version>9.4.0.v20161208</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-io -->
+		<dependency>
+		    <groupId>org.eclipse.jetty</groupId>
+		    <artifactId>jetty-io</artifactId>
+		    <version>9.4.0.v20161208</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-servlet -->
+		<dependency>
+		    <groupId>org.eclipse.jetty</groupId>
+		    <artifactId>jetty-servlet</artifactId>
+		    <version>9.4.0.v20161208</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-servlets -->
+        <dependency>
+           <groupId>org.eclipse.jetty</groupId>
+           <artifactId>jetty-servlets</artifactId>
+		   <version>9.4.0.v20161208</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+		<dependency>
+		    <groupId>com.google.guava</groupId>
+		    <artifactId>guava</artifactId>
+		    <version>21.0</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.google.guava/guava 
+		     This library is required to prevent "futurefallback" failure -->
+		<dependency>
+		    <groupId>com.google.guava</groupId>
+		    <artifactId>guava</artifactId>
+		    <version>19.0-rc1</version>
+		</dependency> 
+		
+		<!-- https://mvnrepository.com/artifact/com.google.maps/google-maps-services -->
+		<dependency>
+		    <groupId>com.google.maps</groupId>
+		    <artifactId>google-maps-services</artifactId>
+		    <version>0.1.20</version>
+		</dependency>
+
+		<dependency>
+	 		<groupId>com.sun.faces</groupId>
+	 		<artifactId>jsf-api</artifactId>
+	 		<version>2.1.7</version>
+  		</dependency>
+  		
+  		<dependency>
+	 		<groupId>com.sun.faces</groupId>
+	 		<artifactId>jsf-impl</artifactId>
+	 		<version>2.1.7</version>
+  		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.netty/netty-all 
+		<dependency>
+    		<groupId>io.netty</groupId>
+    		<artifactId>netty-all</artifactId>
+    		<version>4.1.7.Final</version>
+		</dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+		    <groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+		    <version>4.12</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-jsp 
+		<dependency>
+		    <groupId>org.eclipse.jetty</groupId>
+		    <artifactId>jetty-jsp</artifactId>
+		    <version>9.3.0.M1</version>
+		</dependency>-->
+
+	   	<!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api 
+	    <dependency>
+	        <groupId>javax.servlet.jsp</groupId>
+	        <artifactId>javax.servlet.jsp-api</artifactId>
+	        <version>2.3.2-b02</version>
+	    </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/javax.servlet.jsp.jstl-api 
+		<dependency>
+		    <groupId>javax.servlet.jsp.jstl</groupId>
+		    <artifactId>javax.servlet.jsp.jstl-api</artifactId>
+		    <version>1.2.1</version>
+		</dependency>-->
+	    
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jdt/core -->
+		<dependency>
+		    <groupId>org.eclipse.jdt</groupId>
+		    <artifactId>core</artifactId>
+		    <version>3.3.0-v_771</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+		    <groupId>org.json</groupId>
+		    <artifactId>json</artifactId>
+		    <version>20160810</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-api</artifactId>
+		    <version>1.7.21</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-log4j12</artifactId>
+		    <version>1.7.21</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/log4j/log4j 
+		<dependency>
+		    <groupId>log4j</groupId>
+		    <artifactId>log4j</artifactId>
+		    <version>1.2.17</version>
+		</dependency> -->
+		
+	    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+		    <groupId>org.apache.logging.log4j</groupId>
+		    <artifactId>log4j-api</artifactId>
+		    <version>2.8</version>
+		 </dependency>
+		 
+		 <dependency>
+		    <groupId>org.apache.logging.log4j</groupId>
+		    <artifactId>log4j-core</artifactId>
+		    <version>2.8</version>
+		 </dependency>
+				
+		<!-- https://mvnrepository.com/artifact/org.apache.myfaces.core/myfaces-api -->
+		<dependency>
+		    <groupId>org.apache.myfaces.core</groupId>
+		    <artifactId>myfaces-api</artifactId>
+		    <version>2.2.11</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
+		<dependency>
+   			<groupId>commons-lang</groupId>
+    		<artifactId>commons-lang</artifactId>
+    		<version>2.6</version>
+		</dependency>
+		
+		
+		<!-- https://mvnrepository.com/artifact/javax.faces/jsf-impl -->
+		<dependency>
+		    <groupId>javax.faces</groupId>
+		    <artifactId>jsf-impl</artifactId>
+		    <version>1.2-20</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.webjars.bower/jquery -->
+		<dependency>
+    		<groupId>org.webjars.bower</groupId>
+    		<artifactId>jquery</artifactId>
+    		<version>3.1.1</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.webjars/jquery -->
+		<dependency>
+		    <groupId>org.webjars</groupId>
+		    <artifactId>jquery</artifactId>
+		    <version>3.1.1-1</version>
+		</dependency>
+		
+	    <!-- https://mvnrepository.com/artifact/javax.annotation/jsr250-api -->
+		<dependency>
+		    <groupId>javax.annotation</groupId>
+		    <artifactId>jsr250-api</artifactId>
+		    <version>1.0</version>
+		</dependency>
+	   
+		<!-- https://mvnrepository.com/artifact/org.glassfish/javax.el 
+		<dependency>
+		    <groupId>org.glassfish</groupId>
+		    <artifactId>javax.el</artifactId>
+		    <version>3.0.1-b08</version>
+		</dependency>-->
+
+	    <!-- https://mvnrepository.com/artifact/javax.el/javax.el-api -->
+	    <dependency>
+	        <groupId>javax.el</groupId>
+	        <artifactId>javax.el-api</artifactId>
+	        <version>3.0.1-b04</version>
+	    </dependency>
+	   
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+		<dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>javax.servlet-api</artifactId>
+		    <version>3.1.0</version>
+		</dependency>
+		
+
+	</dependencies>
+  
+</project>
