@@ -64,16 +64,34 @@ Description: A two-column, fixed-width and lightweight template ideal for 1024x7
       <a href="maplocations" onclick="location.href=this.href+'?key=company0028';return false;">Vault Gallery</a><br />
       <a href="maplocations" onclick="location.href=this.href+'?key=company0027';return false;">Taqueria Vallarta</a><br />
       <a href="maplocations" onclick="location.href=this.href+'?key=company0026';return false;">Lift Line</a><br />
-      <a href="maplocations" onclick="location.href=this.href+'?key=company0004';return false;">Staff of Life</a><br />
+      Community Bridges<br />    
       <a href="maplocations" onclick="location.href=this.href+'?key=company0003';return false;">Glacier Ice</a><br />
       <a href="maplocations" onclick="location.href=this.href+'?key=company0025';return false;">West Marine</a><br />
       <a href="maplocations" onclick="location.href=this.href+'?key=company0024';return false;">Kennolyn Camp</a><br />
-      <a href="maplocations" onclick="location.href=this.href+'?key=company0031';return false;">Aegis of Aptos</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0023';return false;">Aegis</a><br />
       <a href="maplocations" onclick="location.href=this.href+'?key=company0022';return false;">David Lyng Realtors</a><br />
       <a href="maplocations" onclick="location.href=this.href+'?key=company0021';return false;">Santa Cruz Metro</a><br />
       <a href="maplocations" onclick="location.href=this.href+'?key=company0020';return false;">Jimmy Smith Plumbing</a><br />
       <a href="maplocations" onclick="location.href=this.href+'?key=company0019';return false;">Santa Cruz Aptos Towing</a><br />
-      <a href="maplocations" onclick="location.href=this.href+'?key=company0003';return false;">Glacier Ice</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0018';return false;">Warmth</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0025';return false;">Senate</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0017';return false;">Plumbed Elegance</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0016';return false;">Emily's</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0015';return false;">Hog's Seafood</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0014';return false;">Kianti's</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0020';return false;">Santa Cruz Fire Dept.</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0012';return false;">Conner Plumbing</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0011';return false;">Cafe Lucio</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0010';return false;">Roadhouse Davenport</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0009';return false;">King's Paint</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0003';return false;">Bay Photo</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0008';return false;">Old School Shoes</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0024';return false;">Gilbert's</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0007';return false;">Viva's</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0006';return false;">Rosie Mc Cann's</a><br />
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0005';return false;">Zinnia's</a><br />      
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0004';return false;">Staff of Life</a><br />>
+      <a href="maplocations" onclick="location.href=this.href+'?key=company0013';return false;">Santa Cruz Fire Dept.</a><br />
  	</td>
     <td>&nbsp;</td>
     <td valign="top"><img src="images/customers_fire.jpg" alt="fire dept" width="400" height="267" align="right" class="entry" /></td>

@@ -76,7 +76,6 @@ companyLocation.set('company0027', "Taqueria Vallarta:36.9688553:-122.039781:/im
 companyLocation.set('company0028', "Vault Gallery:36.9739948:-122.028609:/images/vaultgallery.png");
 companyLocation.set('company0029', "Big Creek Lumber:36.9863925:-121.990809:/images/bigcreeklumber.jpg");
 companyLocation.set('company0030', "Oakwood Memorial Park:36.9915448:-121.9872751:/images/oakwoodmemorialpark.jpg");
-companyLocation.set('company0031', "Aegis of Aptos:36.982308:-121.9142037:/images/ageisofaptos.jpg");
 
 var mapLat      = "";
 var mapLng      = "";
